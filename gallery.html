@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery — Banik Decorators</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html"><span class="logo-mark">BD</span> <span class="logo-text">Banik Decorators</span></a>
+      <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menu-btn" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main class="wrap content">
+    <h1>Gallery</h1>
+    <p>Add your project photos into the <code>images/</code> folder and reference them here.</p>
+
+    <div class="gallery-grid">
+      <div class="img-placeholder">Add <code>images/gallery1.jpg</code></div>
+      <div class="img-placeholder">Add <code>images/gallery2.jpg</code></div>
+      <div class="img-placeholder">Add <code>images/gallery3.jpg</code></div>
+      <div class="img-placeholder">Add <code>images/gallery4.jpg</code></div>
+      <div class="img-placeholder">Add <code>images/gallery5.jpg</code></div>
+      <div class="img-placeholder">Add <code>images/gallery6.jpg</code></div>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox-wrap" aria-hidden="true">
+    <button id="lb-close" aria-label="close">✕</button>
+    <img id="lb-img" src="" alt="">
+  </div>
+
+  <footer class="site-footer wrap">
+    <div>
+      <strong>Banik Decorators</strong>
+      <p class="footer-tag">Turning Every Celebration Into a Masterpiece</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://wa.me/916296229505" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Banik Decorators</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
